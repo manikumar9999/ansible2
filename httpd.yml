@@ -10,7 +10,7 @@
        service:
          name: httpd
          state: started
-         enabled: yes
+         
      - name: copying index.html
        copy:
          src: index.html
