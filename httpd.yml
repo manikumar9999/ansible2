@@ -15,3 +15,7 @@
        copy:
          src: index.html
          dest: /var/www/index.html
+      - name: restart service
+        service:
+         name: httpd
+         state=restarted
